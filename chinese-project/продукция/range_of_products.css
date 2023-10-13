@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .order-buttons{
+    padding: 0px 20px;
+    background: green;
+    height: 36px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+  }
+
+  .company-product>img{
+    width: 204px;
+    height: 179px;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+  }
+
+  .company-product{
+    height: 310px;
+    width: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    justify-content: space-around;
+
+  }
+
+  .products{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    
+    min-width: 350px;
+
+    
+  }
+
+.grey-background{
+    background: #F7F8F9;
+    width: content;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+  .product-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    width: 900px;
+    height: auto;
+  }
+
+  .order-buttons>p{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    
+  }
+
+  .order-buttons{
+
+      border: 3px solid darkgreen;
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+  .block{
+    display: block;
+  }
+
+  .scroll-block{
+
+    padding: 0px 50px 0px 50px;
+    flex-direction: column;
+  }
+
+
+.flex{
+    display: flex;
+}
+
+.scroll-section>ul>li>a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.scroll-section>ul>li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+.scroll-section{
+padding-top: 30px;
+}
+
+
+.svg{
+    transform: rotate(-90deg);
+
+}
+
+.scroll-section>ul>li:nth-child(1){
+padding-left: 20px;
+}
+
+.scroll-section>ul>li:nth-child(2){
+padding-left: 20px;
+}
+
+.scroll-section>ul>li:nth-child(3){
+padding-left: 20px;
+}
+
+.scroll-section>ul>li:nth-child(4){
+padding-left: 20px;
+}
+
+.scroll-section>ul>li:nth-child(5){
+padding-left: 20px;
+}
+.scroll-section>ul>li:nth-child(6){
+padding-left: 20px;
+}
+
+.navbar{
+    margin-bottom: 100px;
+}
+
+
+max-width:1980px;

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="background-video.css">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chinese project</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <style>
+        body {
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="продукция/продукция.html">Брус Доска Пиломатериал</a>
+    <a href="продукция/продукция.html">Доска пола</a>
+    <a href="продукция/продукция.html">Имитация бруса</a>
+    <a href="продукция/продукция.html">Изоляция</a>
+    <a href="продукция/продукция.html">Двери Филёнчатые</a>
+    <a href="продукция/продукция.html">Лаки пропитки,
+        масла</a>
+    <a href="продукция/продукция.html">Листовые материалы</a>
+    <a href="продукция/продукция.html">Вагонка, Полки, планкен</a>
+    <a href="продукция/продукция.html">Листовые материалы</a>
+    <a href="продукция/продукция.html">Лестничные элементы</a>
+  </div>
+  
+  
+  <span style="font-size:30px;cursor:pointer;color:white;position: absolute;left: 200px;" onclick="openNav()">&#9776; </span>
+  
+
+            <div class="centerside">
+
+
+                
+            <ul class="navigations">
+                <li class="navigation-links">
+                    <a href="О_компании/О_компании.html">О КОМПАНИИ</a>
+                </li>
+                <li class="navigation-links">
+                    <a href="производство/производство.html">ПРОИЗВОДСТВО</a>
+                </li>
+                <li class="navigation-links">
+                    <a href="продукция/продукция.html">ПРОДУКЦИЯ</a>
+                </li>
+                <li class="navigation-links">
+                    <a href="контакты/контакты.html">КОНТАКТЫ</a>
+                </li>
+                <li class="navigation-links">
+                    <a href="En/En.html">EN</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div id="video" class="background-video">
+            <div class="text-area-container absolute">
+                <h1>«Кавалеровский лесопромышленный комбинат»</h1>
+                <p>Профессиональный подход и высшее качество <br>
+                    в области деревообрабатывающего производства</p>
+            </div>
+            <video  playsinline autoplay muted loop poster="forest.mp4">
+                <source src="forest.mp4" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            
+        </div>
+    </main>
+</body>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("video").style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+
+</html>
